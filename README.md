@@ -165,22 +165,15 @@ Contribuições são sempre bem-vindas!
 
 ## 📞 Contato
 
-- 📧 **Email**: [seu-email@exemplo.com]
-- 💼 **LinkedIn**: [Seu LinkedIn]
-- 🐙 **GitHub**: [Seu GitHub]
-- 📺 **YouTube**: [Seu Canal]
+- 📧 **Email**: lamp.20006@gmail.com
+- 💼 **LinkedIn**: Lamp
+- 🐙 **GitHub**: lamp20id06
+- 📺 **YouTube**: Lamp
 
 ---
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
 <div align="center">
 
-**Feito com 💜 por [Seu Nome]**
+**Feito com 💜 por Lamp**
 
 ⭐ Deixe uma estrela se este projeto te ajudou!
 
