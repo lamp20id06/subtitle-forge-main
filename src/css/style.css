@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap');
 
+:focus-visible{
+    outline: 2px solid white;
+    outline-offset: 2px;
+}
+
 body {
     margin: 0;
     padding: 0;
