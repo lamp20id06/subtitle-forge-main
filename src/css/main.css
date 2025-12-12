@@ -1,0 +1,16 @@
+/* Main CSS - Import all modules */
+
+/* Base styles */
+@import 'base/_reset.css';
+@import 'base/_tokens.css';
+
+/* Components */
+@import 'components/_header.css';
+@import 'components/_description.css';
+@import 'components/_gallery.css';
+@import 'components/_footer.css';
+
+/* Page-specific components */
+@import 'components/_updates.css';
+@import 'components/_downloads.css';
+@import 'components/_contacts.css';
