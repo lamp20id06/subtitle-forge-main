@@ -43,7 +43,6 @@
 }
 
 .linguagens {
-    list-style: none;
     text-decoration: none;
     font-weight: bold;
     padding: var(--spacing-sm);
@@ -54,6 +53,7 @@
     ul {
         display: flex;
         gap: var(--spacing-md);
+        list-style: none;
     }
 
     a {
