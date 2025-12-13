@@ -1,20 +1,19 @@
-/* Design Tokens - Global CSS Variables */
 
 @import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap');
 
 :root {
-    /* Colors */
+    /* Cores */
     --color-primary: #8061c8;
     --color-background: #0f1013;
     --color-header-bg: #17171b;
     --color-text: #ffffff;
     --color-text-muted: gray;
 
-    /* Typography */
+    /* Tipografia */
     --font-primary: 'Science Gothic', sans-serif;
     --font-secondary: Verdana, Geneva, Tahoma, sans-serif;
 
-    /* Font Sizes */
+    /* tamanho das fontes */
     --font-size-xs: 14px;
     --font-size-sm: 16px;
     --font-size-md: 20px;
@@ -22,18 +21,18 @@
     --font-size-xl: 50px;
     --font-size-xxl: 62px;
 
-    /* Spacing */
+    /* Espaçamento */
     --spacing-xs: 5px;
     --spacing-sm: 10px;
     --spacing-md: 20px;
     --spacing-lg: 30px;
     --spacing-xl: 50px;
 
-    /* Border */
+    /* Bordas */
     --border-radius: 12px;
     --border-width: 2px;
 
-    /* Transitions */
+    /* Transições */
     --transition-fast: 0.3s ease-in-out;
     --transition-medium: 0.5s ease-in-out;
 

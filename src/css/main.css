@@ -1,16 +1,9 @@
-/* Main CSS - Import all modules */
-
-/* Base styles */
 @import 'base/_reset.css';
 @import 'base/_tokens.css';
-
-/* Components */
 @import 'components/_cabecalho.css';
 @import 'components/_descricao.css';
 @import 'components/_galeria.css';
 @import 'components/_rodape.css';
-
-/* Page-specific components */
 @import 'components/_update.css';
 @import 'components/_download.css';
 @import 'components/_contatos.css';
