@@ -6,6 +6,12 @@
 
 **Software multiplataforma para criação automática de legendas usando IA**
 
+**Criado por: 
+Nevesz(https://github.com/Aiel-rgb)
+Lucas-amd666(https://github.com/Lucas-amd666)
+Guilherme Castro Melo(https://github.com/SpiderflameKai)**
+
+
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
@@ -100,7 +106,7 @@ start src/index.html
 | **HTML5** | Estrutura semântica do site |
 | **CSS3** | Estilos customizados e responsividade |
 | **JavaScript** | Interatividade e funcionalidades |
-| **Tailwind CSS** | Framework CSS utilitário |
+|**CSS Modules**| Arquitetura componentizada para escalabilidade|
 | **Font Awesome** | Ícones vetoriais |
 | **Google Fonts** | Fonte Science Gothic |
 
@@ -109,23 +115,33 @@ start src/index.html
 ## 📁 Estrutura do Projeto
 
 ```
-subtitle-forge/
+subtitle-forge-main/
 ├── src/
 │   ├── css/
-│   │   ├── style.css        # Estilos da página principal
-│   │   ├── download.css     # Estilos da página de download
-│   │   ├── update.css       # Estilos da página de updates
-│   │   └── contatos.css     # Estilos da página de contatos
+│   │   ├── base/
+│   │   │   ├── _reset.css          # Reset CSS global
+│   │   │   └── _tokens.css         # Variáveis CSS (cores, fontes, etc)
+│   │   ├── components/
+│   │   │   ├── _cabecalho.css      # Estilos do header/navbar
+│   │   │   ├── _contatos.css       # Estilos da seção de contatos
+│   │   │   ├── _descricao.css      # Estilos de descrição do produto
+│   │   │   ├── _download.css       # Estilos da página de download
+│   │   │   ├── _galeria.css        # Estilos da galeria de imagens
+│   │   │   ├── _rodape.css         # Estilos do footer
+│   │   │   └── _update.css         # Estilos da página de updates
+│   │   └── main.css                # Arquivo principal que importa todos
+│   ├── img/
+│   │   ├── img1.jpeg - img8.jpeg   # Screenshots do projeto
+│   │   └── logo.png                # Logo do Subtitle Forge
 │   ├── js/
-│   │   ├── imagem.js        # Script para ampliar imagens
-│   │   └── lerMais.js       # Script para "Ler mais" overlay
-│   ├── img/                 # Imagens e logo
+│   │   ├── imagem.js               # Script para ampliar imagens
+│   │   └── lerMais.js              # Script para "Ler mais" overlay
 │   ├── pages/
-│   │   ├── download.html    # Página de downloads
-│   │   ├── updates.html     # Página de atualizações
-│   │   └── contatos.html    # Página de contatos
-│   └── index.html           # Página principal
-└── README.md
+│   │   ├── contatos.html           # Página de contatos
+│   │   ├── download.html           # Página de downloads
+│   │   └── updates.html            # Página de atualizações
+│   └── index.html                  # Página principal (Home)
+└── README.md                       # Documentação do projeto
 ```
 
 ---
